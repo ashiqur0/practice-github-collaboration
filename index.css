@@ -1,3 +1,25 @@
-*{
-  background-color:red;
+ul {
+  
+  width: 1280px;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.60);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  height: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(80, 80, 80, 0.05);
+}
+
+h2 {
+  text-align: center;
 }
